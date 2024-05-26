@@ -1,0 +1,9 @@
+*{
+    margin: 0px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border:border box;
+}
+.nav bar{
+    height: 60px;
+    background-color: #0f1111;
+}
