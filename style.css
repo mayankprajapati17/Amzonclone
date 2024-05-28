@@ -25,3 +25,15 @@
 .border:hover{
     border:1.5px solid white;
 }
+.add-first{
+    color:#cccccc;
+    font-size:0.70rem;
+}
+.add-second{
+    font-size:0.85 rem;
+}
+.nav-search{
+
+display: flex;
+background-color: burlywood;
+}
