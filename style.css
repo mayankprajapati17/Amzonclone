@@ -83,3 +83,10 @@ display: flex;
     font-size:0.85rem;
     font: weight 700px;
 }
+.nav-cart i {
+    font-size: 40px;
+}
+.nav-cart{
+    font-size: 16px;
+    font-weight: 700px;
+}
