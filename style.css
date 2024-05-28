@@ -8,6 +8,7 @@
     background-color: #0f1111;
     color: white;
     display:flex;
+    justify-content: space-evenly;
 }
 .nav-logo{
     height:50px;
@@ -70,4 +71,15 @@ display: flex;
 
 
 
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.span{
+    font-size: 0.7rem;
+
+}
+.nav-second{
+    font-size:0.85rem;
+    font: weight 700px;
 }
