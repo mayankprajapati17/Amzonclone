@@ -109,8 +109,11 @@ display: flex;
 /* Slideshow container */
 .slideshow-container {
   width: 1350px;
+ 
   position: relative;
   margin: auto;
+  display: flex;
+  align-items: flex-end;
 }
 
 /* Hide the images by default */
@@ -122,13 +125,13 @@ display: flex;
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 25%;
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: black;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 22px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -142,8 +145,48 @@ display: flex;
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: transparent;
 }
+
+
+/* shop section*/
+.box{
+    
+    height:400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+}
+.box-img{
+    height:280px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-cont{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-cont p{
+    color: #007185;
+
+}
+.box-cont h2{
+    font-size: 1rem;
+    text-align: center;
+}
+
 
 
 
